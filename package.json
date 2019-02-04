@@ -1,0 +1,36 @@
+{
+  "name": "weather-widget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --progress",
+    "dev": "npm-run-all --parallel server client",
+    "server": "nodemon index.js",
+    "client": "webpack --watch --progress"
+  },
+  "author": "Jamal Soueidan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "nodemon": "^1.18.9",
+    "npm-run-all": "^4.1.5",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  }
+}
