@@ -15,7 +15,7 @@ The widget shows basic weather information (temperature, humidity, wind) for a g
 ## Run
 
 ```javascript
-npm install ..
+npm install
 npm run dev
 ```
 
